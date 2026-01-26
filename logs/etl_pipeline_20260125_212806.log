@@ -1,0 +1,360 @@
+2026-01-25 21:28:06 - INFO - Logging initialized. Log file: /Users/rk/Documents/anime-analytics/logs/etl_pipeline_20260125_212806.log
+2026-01-25 21:28:06 - INFO - ============================================================
+2026-01-25 21:28:06 - INFO - STARTING FULL ETL PIPELINE
+2026-01-25 21:28:06 - INFO - ============================================================
+2026-01-25 21:28:06 - INFO - Project root: /Users/rk/Documents/anime-analytics
+2026-01-25 21:28:06 - INFO - S3 bucket: anime-analytics-bucket
+2026-01-25 21:28:06 - INFO - Raw prefix: anime-impact/raw/
+2026-01-25 21:28:06 - INFO - Processed prefix: anime-impact/processed/
+2026-01-25 21:28:06 - INFO - ============================================================
+
+2026-01-25 21:28:06 - INFO - Loaded 103 anime IDs from config
+2026-01-25 21:28:06 - INFO - Starting ETL pipeline for 103 anime
+2026-01-25 21:28:06 - INFO - Processing anime 1/103 (ID: 1)
+2026-01-25 21:28:06 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/1/full
+2026-01-25 21:28:08 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/1/full.json
+2026-01-25 21:28:08 - INFO - Processing anime 2/103 (ID: 5)
+2026-01-25 21:28:08 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/5/full
+2026-01-25 21:28:08 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/5/full.json
+2026-01-25 21:28:08 - INFO - Processing anime 3/103 (ID: 6)
+2026-01-25 21:28:09 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/6/full
+2026-01-25 21:28:10 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/6/full.json
+2026-01-25 21:28:10 - INFO - Processing anime 4/103 (ID: 7)
+2026-01-25 21:28:10 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/7/full
+2026-01-25 21:28:11 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/7/full.json
+2026-01-25 21:28:11 - INFO - Processing anime 5/103 (ID: 8)
+2026-01-25 21:28:11 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/8/full
+2026-01-25 21:28:12 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/8/full.json
+2026-01-25 21:28:12 - INFO - Processing anime 6/103 (ID: 9)
+2026-01-25 21:28:13 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/9/full
+2026-01-25 21:28:14 - WARNING - Anime 9 not found (404)
+2026-01-25 21:28:14 - WARNING - Skipped anime 9 - fetch failed
+2026-01-25 21:28:14 - INFO - Processing anime 7/103 (ID: 10)
+2026-01-25 21:28:14 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/10/full
+2026-01-25 21:28:16 - WARNING - Anime 10 not found (404)
+2026-01-25 21:28:16 - WARNING - Skipped anime 10 - fetch failed
+2026-01-25 21:28:16 - INFO - Processing anime 8/103 (ID: 11)
+2026-01-25 21:28:16 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/11/full
+2026-01-25 21:28:17 - WARNING - Anime 11 not found (404)
+2026-01-25 21:28:17 - WARNING - Skipped anime 11 - fetch failed
+2026-01-25 21:28:17 - INFO - Processing anime 9/103 (ID: 12)
+2026-01-25 21:28:17 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/12/full
+2026-01-25 21:28:19 - WARNING - Anime 12 not found (404)
+2026-01-25 21:28:19 - WARNING - Skipped anime 12 - fetch failed
+2026-01-25 21:28:19 - INFO - Processing anime 10/103 (ID: 13)
+2026-01-25 21:28:19 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/13/full
+2026-01-25 21:28:20 - WARNING - Anime 13 not found (404)
+2026-01-25 21:28:20 - WARNING - Skipped anime 13 - fetch failed
+2026-01-25 21:28:20 - INFO - Processing anime 11/103 (ID: 15)
+2026-01-25 21:28:20 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/15/full
+2026-01-25 21:28:21 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/15/full.json
+2026-01-25 21:28:21 - INFO - Processing anime 12/103 (ID: 16)
+2026-01-25 21:28:21 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/16/full
+2026-01-25 21:28:22 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/16/full.json
+2026-01-25 21:28:22 - INFO - Processing anime 13/103 (ID: 17)
+2026-01-25 21:28:22 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/17/full
+2026-01-25 21:28:23 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/17/full.json
+2026-01-25 21:28:23 - INFO - Processing anime 14/103 (ID: 18)
+2026-01-25 21:28:24 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/18/full
+2026-01-25 21:28:24 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/18/full.json
+2026-01-25 21:28:24 - INFO - Processing anime 15/103 (ID: 19)
+2026-01-25 21:28:25 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/19/full
+2026-01-25 21:28:26 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/19/full.json
+2026-01-25 21:28:26 - INFO - Processing anime 16/103 (ID: 20)
+2026-01-25 21:28:26 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/20/full
+2026-01-25 21:28:27 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/20/full.json
+2026-01-25 21:28:27 - INFO - Processing anime 17/103 (ID: 21)
+2026-01-25 21:28:27 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/21/full
+2026-01-25 21:28:28 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/21/full.json
+2026-01-25 21:28:28 - INFO - Processing anime 18/103 (ID: 22)
+2026-01-25 21:28:28 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/22/full
+2026-01-25 21:28:29 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/22/full.json
+2026-01-25 21:28:29 - INFO - Processing anime 19/103 (ID: 23)
+2026-01-25 21:28:29 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/23/full
+2026-01-25 21:28:30 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/23/full.json
+2026-01-25 21:28:30 - INFO - Processing anime 20/103 (ID: 25)
+2026-01-25 21:28:31 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/25/full
+2026-01-25 21:28:31 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/25/full.json
+2026-01-25 21:28:31 - INFO - Progress: 20/103 completed
+2026-01-25 21:28:31 - INFO - Processing anime 21/103 (ID: 26)
+2026-01-25 21:28:32 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/26/full
+2026-01-25 21:28:33 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/26/full.json
+2026-01-25 21:28:33 - INFO - Processing anime 22/103 (ID: 27)
+2026-01-25 21:28:33 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/27/full
+2026-01-25 21:28:34 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/27/full.json
+2026-01-25 21:28:34 - INFO - Processing anime 23/103 (ID: 28)
+2026-01-25 21:28:34 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/28/full
+2026-01-25 21:28:35 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/28/full.json
+2026-01-25 21:28:35 - INFO - Processing anime 24/103 (ID: 29)
+2026-01-25 21:28:36 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/29/full
+2026-01-25 21:28:36 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/29/full.json
+2026-01-25 21:28:36 - INFO - Processing anime 25/103 (ID: 30)
+2026-01-25 21:28:37 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/30/full
+2026-01-25 21:28:37 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/30/full.json
+2026-01-25 21:28:37 - INFO - Processing anime 26/103 (ID: 33)
+2026-01-25 21:28:38 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/33/full
+2026-01-25 21:28:39 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/33/full.json
+2026-01-25 21:28:39 - INFO - Processing anime 27/103 (ID: 34)
+2026-01-25 21:28:39 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/34/full
+2026-01-25 21:28:41 - WARNING - Anime 34 not found (404)
+2026-01-25 21:28:41 - WARNING - Skipped anime 34 - fetch failed
+2026-01-25 21:28:41 - INFO - Processing anime 28/103 (ID: 35)
+2026-01-25 21:28:41 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/35/full
+2026-01-25 21:28:43 - WARNING - Anime 35 not found (404)
+2026-01-25 21:28:43 - WARNING - Skipped anime 35 - fetch failed
+2026-01-25 21:28:43 - INFO - Processing anime 29/103 (ID: 37)
+2026-01-25 21:28:43 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/37/full
+2026-01-25 21:28:44 - WARNING - Anime 37 not found (404)
+2026-01-25 21:28:44 - WARNING - Skipped anime 37 - fetch failed
+2026-01-25 21:28:44 - INFO - Processing anime 30/103 (ID: 38)
+2026-01-25 21:28:44 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/38/full
+2026-01-25 21:28:45 - WARNING - Anime 38 not found (404)
+2026-01-25 21:28:45 - WARNING - Skipped anime 38 - fetch failed
+2026-01-25 21:28:45 - INFO - Processing anime 31/103 (ID: 40)
+2026-01-25 21:28:45 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/40/full
+2026-01-25 21:28:46 - WARNING - Anime 40 not found (404)
+2026-01-25 21:28:46 - WARNING - Skipped anime 40 - fetch failed
+2026-01-25 21:28:46 - INFO - Processing anime 32/103 (ID: 41)
+2026-01-25 21:28:46 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/41/full
+2026-01-25 21:28:47 - WARNING - Anime 41 not found (404)
+2026-01-25 21:28:47 - WARNING - Skipped anime 41 - fetch failed
+2026-01-25 21:28:47 - INFO - Processing anime 33/103 (ID: 43)
+2026-01-25 21:28:47 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/43/full
+2026-01-25 21:28:48 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/43/full.json
+2026-01-25 21:28:48 - INFO - Processing anime 34/103 (ID: 44)
+2026-01-25 21:28:48 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/44/full
+2026-01-25 21:28:49 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/44/full.json
+2026-01-25 21:28:49 - INFO - Processing anime 35/103 (ID: 47)
+2026-01-25 21:28:49 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/47/full
+2026-01-25 21:28:50 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/47/full.json
+2026-01-25 21:28:50 - INFO - Processing anime 36/103 (ID: 48)
+2026-01-25 21:28:51 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/48/full
+2026-01-25 21:28:51 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/48/full.json
+2026-01-25 21:28:51 - INFO - Processing anime 37/103 (ID: 50)
+2026-01-25 21:28:52 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/50/full
+2026-01-25 21:28:53 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/50/full.json
+2026-01-25 21:28:53 - INFO - Processing anime 38/103 (ID: 52)
+2026-01-25 21:28:53 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/52/full
+2026-01-25 21:28:54 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/52/full.json
+2026-01-25 21:28:54 - INFO - Processing anime 39/103 (ID: 53)
+2026-01-25 21:28:54 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/53/full
+2026-01-25 21:28:55 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/53/full.json
+2026-01-25 21:28:55 - INFO - Processing anime 40/103 (ID: 54)
+2026-01-25 21:28:56 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/54/full
+2026-01-25 21:28:56 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/54/full.json
+2026-01-25 21:28:56 - INFO - Progress: 40/103 completed
+2026-01-25 21:28:56 - INFO - Processing anime 41/103 (ID: 57)
+2026-01-25 21:28:57 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/57/full
+2026-01-25 21:28:57 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/57/full.json
+2026-01-25 21:28:57 - INFO - Processing anime 42/103 (ID: 58)
+2026-01-25 21:28:58 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/58/full
+2026-01-25 21:28:59 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/58/full.json
+2026-01-25 21:28:59 - INFO - Processing anime 43/103 (ID: 60)
+2026-01-25 21:28:59 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/60/full
+2026-01-25 21:29:00 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/60/full.json
+2026-01-25 21:29:00 - INFO - Processing anime 44/103 (ID: 61)
+2026-01-25 21:29:00 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/61/full
+2026-01-25 21:29:01 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/61/full.json
+2026-01-25 21:29:01 - INFO - Processing anime 45/103 (ID: 62)
+2026-01-25 21:29:02 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/62/full
+2026-01-25 21:29:02 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/62/full.json
+2026-01-25 21:29:02 - INFO - Processing anime 46/103 (ID: 64)
+2026-01-25 21:29:03 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/64/full
+2026-01-25 21:29:03 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/64/full.json
+2026-01-25 21:29:03 - INFO - Processing anime 47/103 (ID: 65)
+2026-01-25 21:29:04 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/65/full
+2026-01-25 21:29:05 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/65/full.json
+2026-01-25 21:29:05 - INFO - Processing anime 48/103 (ID: 67)
+2026-01-25 21:29:05 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/67/full
+2026-01-25 21:29:06 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/67/full.json
+2026-01-25 21:29:06 - INFO - Processing anime 49/103 (ID: 68)
+2026-01-25 21:29:06 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/68/full
+2026-01-25 21:29:07 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/68/full.json
+2026-01-25 21:29:07 - INFO - Processing anime 50/103 (ID: 69)
+2026-01-25 21:29:08 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/69/full
+2026-01-25 21:29:08 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/69/full.json
+2026-01-25 21:29:08 - INFO - Progress: 50/103 completed
+2026-01-25 21:29:08 - INFO - Processing anime 51/103 (ID: 70)
+2026-01-25 21:29:09 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/70/full
+2026-01-25 21:29:10 - WARNING - Anime 70 not found (404)
+2026-01-25 21:29:10 - WARNING - Skipped anime 70 - fetch failed
+2026-01-25 21:29:10 - INFO - Processing anime 52/103 (ID: 71)
+2026-01-25 21:29:10 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/71/full
+2026-01-25 21:29:11 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/71/full.json
+2026-01-25 21:29:11 - INFO - Processing anime 53/103 (ID: 73)
+2026-01-25 21:29:11 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/73/full
+2026-01-25 21:29:12 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/73/full.json
+2026-01-25 21:29:12 - INFO - Processing anime 54/103 (ID: 75)
+2026-01-25 21:29:13 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/75/full
+2026-01-25 21:29:13 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/75/full.json
+2026-01-25 21:29:13 - INFO - Processing anime 55/103 (ID: 76)
+2026-01-25 21:29:14 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/76/full
+2026-01-25 21:29:15 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/76/full.json
+2026-01-25 21:29:15 - INFO - Processing anime 56/103 (ID: 77)
+2026-01-25 21:29:15 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/77/full
+2026-01-25 21:29:16 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/77/full.json
+2026-01-25 21:29:16 - INFO - Processing anime 57/103 (ID: 78)
+2026-01-25 21:29:16 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/78/full
+2026-01-25 21:29:17 - WARNING - Anime 78 not found (404)
+2026-01-25 21:29:17 - WARNING - Skipped anime 78 - fetch failed
+2026-01-25 21:29:17 - INFO - Processing anime 58/103 (ID: 79)
+2026-01-25 21:29:17 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/79/full
+2026-01-25 21:29:18 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/79/full.json
+2026-01-25 21:29:18 - INFO - Processing anime 59/103 (ID: 80)
+2026-01-25 21:29:19 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/80/full
+2026-01-25 21:29:20 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/80/full.json
+2026-01-25 21:29:20 - INFO - Processing anime 60/103 (ID: 81)
+2026-01-25 21:29:20 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/81/full
+2026-01-25 21:29:21 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/81/full.json
+2026-01-25 21:29:21 - INFO - Progress: 60/103 completed
+2026-01-25 21:29:21 - INFO - Processing anime 61/103 (ID: 82)
+2026-01-25 21:29:21 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/82/full
+2026-01-25 21:29:22 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/82/full.json
+2026-01-25 21:29:22 - INFO - Processing anime 62/103 (ID: 83)
+2026-01-25 21:29:22 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/83/full
+2026-01-25 21:29:23 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/83/full.json
+2026-01-25 21:29:23 - INFO - Processing anime 63/103 (ID: 84)
+2026-01-25 21:29:24 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/84/full
+2026-01-25 21:29:24 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/84/full.json
+2026-01-25 21:29:24 - INFO - Processing anime 64/103 (ID: 85)
+2026-01-25 21:29:25 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/85/full
+2026-01-25 21:29:26 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/85/full.json
+2026-01-25 21:29:26 - INFO - Processing anime 65/103 (ID: 86)
+2026-01-25 21:29:26 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/86/full
+2026-01-25 21:29:27 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/86/full.json
+2026-01-25 21:29:27 - INFO - Processing anime 66/103 (ID: 87)
+2026-01-25 21:29:27 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/87/full
+2026-01-25 21:29:28 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/87/full.json
+2026-01-25 21:29:28 - INFO - Processing anime 67/103 (ID: 88)
+2026-01-25 21:29:29 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/88/full
+2026-01-25 21:29:29 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/88/full.json
+2026-01-25 21:29:29 - INFO - Processing anime 68/103 (ID: 90)
+2026-01-25 21:29:30 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/90/full
+2026-01-25 21:29:31 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/90/full.json
+2026-01-25 21:29:31 - INFO - Processing anime 69/103 (ID: 94)
+2026-01-25 21:29:31 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/94/full
+2026-01-25 21:29:32 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/94/full.json
+2026-01-25 21:29:32 - INFO - Processing anime 70/103 (ID: 95)
+2026-01-25 21:29:32 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/95/full
+2026-01-25 21:29:33 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/95/full.json
+2026-01-25 21:29:33 - INFO - Progress: 70/103 completed
+2026-01-25 21:29:33 - INFO - Processing anime 71/103 (ID: 96)
+2026-01-25 21:29:33 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/96/full
+2026-01-25 21:29:35 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/96/full.json
+2026-01-25 21:29:35 - INFO - Processing anime 72/103 (ID: 97)
+2026-01-25 21:29:35 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/97/full
+2026-01-25 21:29:35 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/97/full.json
+2026-01-25 21:29:35 - INFO - Processing anime 73/103 (ID: 98)
+2026-01-25 21:29:36 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/98/full
+2026-01-25 21:29:37 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/98/full.json
+2026-01-25 21:29:37 - INFO - Processing anime 74/103 (ID: 99)
+2026-01-25 21:29:37 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/99/full
+2026-01-25 21:29:38 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/99/full.json
+2026-01-25 21:29:38 - INFO - Processing anime 75/103 (ID: 100)
+2026-01-25 21:29:38 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/100/full
+2026-01-25 21:29:39 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/100/full.json
+2026-01-25 21:29:39 - INFO - Processing anime 76/103 (ID: 101)
+2026-01-25 21:29:40 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/101/full
+2026-01-25 21:29:40 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/101/full.json
+2026-01-25 21:29:40 - INFO - Processing anime 77/103 (ID: 102)
+2026-01-25 21:29:41 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/102/full
+2026-01-25 21:29:42 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/102/full.json
+2026-01-25 21:29:42 - INFO - Processing anime 78/103 (ID: 103)
+2026-01-25 21:29:42 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/103/full
+2026-01-25 21:29:43 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/103/full.json
+2026-01-25 21:29:43 - INFO - Processing anime 79/103 (ID: 104)
+2026-01-25 21:29:43 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/104/full
+2026-01-25 21:29:44 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/104/full.json
+2026-01-25 21:29:44 - INFO - Processing anime 80/103 (ID: 105)
+2026-01-25 21:29:44 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/105/full
+2026-01-25 21:29:45 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/105/full.json
+2026-01-25 21:29:45 - INFO - Progress: 80/103 completed
+2026-01-25 21:29:45 - INFO - Processing anime 81/103 (ID: 107)
+2026-01-25 21:29:46 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/107/full
+2026-01-25 21:29:46 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/107/full.json
+2026-01-25 21:29:46 - INFO - Processing anime 82/103 (ID: 108)
+2026-01-25 21:29:47 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/108/full
+2026-01-25 21:29:48 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/108/full.json
+2026-01-25 21:29:48 - INFO - Processing anime 83/103 (ID: 109)
+2026-01-25 21:29:48 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/109/full
+2026-01-25 21:29:49 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/109/full.json
+2026-01-25 21:29:49 - INFO - Processing anime 84/103 (ID: 110)
+2026-01-25 21:29:49 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/110/full
+2026-01-25 21:29:50 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/110/full.json
+2026-01-25 21:29:50 - INFO - Processing anime 85/103 (ID: 111)
+2026-01-25 21:29:50 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/111/full
+2026-01-25 21:29:51 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/111/full.json
+2026-01-25 21:29:51 - INFO - Processing anime 86/103 (ID: 112)
+2026-01-25 21:29:52 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/112/full
+2026-01-25 21:29:53 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/112/full.json
+2026-01-25 21:29:53 - INFO - Processing anime 87/103 (ID: 113)
+2026-01-25 21:29:53 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/113/full
+2026-01-25 21:29:54 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/113/full.json
+2026-01-25 21:29:54 - INFO - Processing anime 88/103 (ID: 114)
+2026-01-25 21:29:54 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/114/full
+2026-01-25 21:29:55 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/114/full.json
+2026-01-25 21:29:55 - INFO - Processing anime 89/103 (ID: 116)
+2026-01-25 21:29:55 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/116/full
+2026-01-25 21:29:56 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/116/full.json
+2026-01-25 21:29:56 - INFO - Processing anime 90/103 (ID: 117)
+2026-01-25 21:29:57 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/117/full
+2026-01-25 21:29:57 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/117/full.json
+2026-01-25 21:29:57 - INFO - Progress: 90/103 completed
+2026-01-25 21:29:57 - INFO - Processing anime 91/103 (ID: 118)
+2026-01-25 21:29:58 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/118/full
+2026-01-25 21:29:59 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/118/full.json
+2026-01-25 21:29:59 - INFO - Processing anime 92/103 (ID: 119)
+2026-01-25 21:29:59 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/119/full
+2026-01-25 21:30:00 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/119/full.json
+2026-01-25 21:30:00 - INFO - Processing anime 93/103 (ID: 120)
+2026-01-25 21:30:00 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/120/full
+2026-01-25 21:30:01 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/120/full.json
+2026-01-25 21:30:01 - INFO - Processing anime 94/103 (ID: 121)
+2026-01-25 21:30:01 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/121/full
+2026-01-25 21:30:02 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/121/full.json
+2026-01-25 21:30:02 - INFO - Processing anime 95/103 (ID: 122)
+2026-01-25 21:30:03 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/122/full
+2026-01-25 21:30:03 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/122/full.json
+2026-01-25 21:30:03 - INFO - Processing anime 96/103 (ID: 123)
+2026-01-25 21:30:04 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/123/full
+2026-01-25 21:30:05 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/123/full.json
+2026-01-25 21:30:05 - INFO - Processing anime 97/103 (ID: 124)
+2026-01-25 21:30:05 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/124/full
+2026-01-25 21:30:06 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/124/full.json
+2026-01-25 21:30:06 - INFO - Processing anime 98/103 (ID: 125)
+2026-01-25 21:30:06 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/125/full
+2026-01-25 21:30:07 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/125/full.json
+2026-01-25 21:30:07 - INFO - Processing anime 99/103 (ID: 126)
+2026-01-25 21:30:08 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/126/full
+2026-01-25 21:30:08 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/126/full.json
+2026-01-25 21:30:08 - INFO - Processing anime 100/103 (ID: 127)
+2026-01-25 21:30:09 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/127/full
+2026-01-25 21:30:10 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/127/full.json
+2026-01-25 21:30:10 - INFO - Progress: 100/103 completed
+2026-01-25 21:30:10 - INFO - Processing anime 101/103 (ID: 128)
+2026-01-25 21:30:10 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/128/full
+2026-01-25 21:30:11 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/128/full.json
+2026-01-25 21:30:11 - INFO - Processing anime 102/103 (ID: 129)
+2026-01-25 21:30:11 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/129/full
+2026-01-25 21:30:12 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/129/full.json
+2026-01-25 21:30:12 - INFO - Processing anime 103/103 (ID: 130)
+2026-01-25 21:30:13 - DEBUG - Fetching: https://api.jikan.moe/v4/anime/130/full
+2026-01-25 21:30:13 - DEBUG - Uploaded to s3://anime-analytics-bucket/anime-impact/raw/130/full.json
+2026-01-25 21:30:13 - INFO - Fetch and transform complete: 90 successful, 13 failed, 0 skipped
+2026-01-25 21:30:13 - INFO - Validation report: {'total_rows': 90, 'total_columns': 24, 'null_counts': {'anime_id': 0, 'title': 0, 'title_english': 10, 'title_japanese': 0, 'anime_type': 0, 'episodes': 1, 'status': 0, 'aired_from': 0, 'aired_to': 8, 'score': 0, 'scored_by': 0, 'rank': 0, 'popularity_rank': 0, 'members': 0, 'favorites': 0, 'source': 0, 'rating': 0, 'season': 16, 'season_year': 16, 'duration': 0, 'studios': 0, 'producers': 0, 'genres': 0, 'extracted_at': 0}, 'duplicate_anime_ids': 0, 'rows_with_valid_scores': 90, 'avg_score': 7.438666666666665, 'avg_episodes': 30.348314606741575}
+2026-01-25 21:30:13 - INFO - ✓ Created CSV: /Users/rk/Documents/anime-analytics/data/anime_data_20260125_213013.csv
+2026-01-25 21:30:14 - INFO - Uploaded CSV to s3://anime-analytics-bucket/anime-impact/processed/anime_data_20260125_213013.csv
+2026-01-25 21:30:14 - INFO - ✓ CSV uploaded to S3: s3://anime-analytics-bucket/anime-impact/processed/anime_data_20260125_213013.csv
+2026-01-25 21:30:14 - INFO - 
+============================================================
+2026-01-25 21:30:14 - INFO - ETL PIPELINE COMPLETION REPORT
+2026-01-25 21:30:14 - INFO - ============================================================
+2026-01-25 21:30:14 - INFO - Total anime requested: 103
+2026-01-25 21:30:14 - INFO - Successfully fetched: 90
+2026-01-25 21:30:14 - INFO - Failed fetches: 13
+2026-01-25 21:30:14 - INFO - Skipped (validation): 0
+2026-01-25 21:30:14 - INFO - Success rate: 87.4%
+2026-01-25 21:30:14 - INFO - Total records in CSV: 90
+2026-01-25 21:30:14 - INFO - ============================================================
+
+2026-01-25 21:30:14 - INFO - Total execution time: 127.51 seconds (2.13 minutes)
