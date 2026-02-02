@@ -301,11 +301,11 @@ class LicensingDataTransformer:
             # Low-rated non-exclusives get ~0.5% of regional revenue
             
             if deal['score'] and deal['is_exclusive']:
-                revenue_attribution_rate = 0.02
+                revenue_attribution_rate = 0.15  # ← Increased from 0.02
             elif deal['score']:
-                revenue_attribution_rate = 0.01
+                revenue_attribution_rate = 0.10  # ← Increased from 0.01
             else:
-                revenue_attribution_rate = 0.005
+                revenue_attribution_rate = 0.05  # ← Increased from 0.005
             
             attributed_revenue = rev * revenue_attribution_rate
             
